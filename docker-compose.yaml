@@ -1,0 +1,10 @@
+version: "3"
+services:
+    dualtarget:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "6000:6000"
+        environment:
+            
