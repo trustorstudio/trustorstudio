@@ -1,6 +1,15 @@
 const images = {
     logo: {
-        first:require("~/assets/images/generic/logo.svg"), 
+        first: require("~/assets/images/logo/first.svg"),
+        second: require("~/assets/images/logo/second.svg"),
+        third: require("~/assets/images/logo/third.png")
+    },
+
+    banner: {
+        first: require("~/assets/images/banners/banner-01.jpg"),
+        second: require("~/assets/images/banners/banner-02.jpg"),
+        third: require("~/assets/images/banners/banner-03.jpg"),
+        fourth: require("~/assets/images/banners/banner-04.jpg"),
     },
 
     socialMedia: {

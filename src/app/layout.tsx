@@ -1,6 +1,11 @@
+import "swiper/css";
+import "swiper/css/bundle";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/swiper-bundle.css";
 import "~/styles/globals.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
