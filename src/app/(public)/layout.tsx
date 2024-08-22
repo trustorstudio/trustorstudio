@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import type { Metadata } from "next";
-import Footer from "~/components/Footer";
+import Header from "~/layouts/components/Header";
+import Footer from "~/layouts/components/Footer";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -12,7 +13,8 @@ type Props = {
 };
 const PublicLayout = function ({ children }: Readonly<Props>) {
     return (
-        <div>
+        <div className="overflow-x-hidden">
+            <Header />
             <main>{children}</main>
             <Footer />
         </div>
