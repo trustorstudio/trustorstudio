@@ -13,7 +13,7 @@ type Props = {
 };
 const PublicLayout = function ({ children }: Readonly<Props>) {
     return (
-        <div className="overflow-x-hidden">
+        <div className="overflow-x-hidden snap-y snap-mandatory">
             <Header />
             <main>{children}</main>
             <Footer />

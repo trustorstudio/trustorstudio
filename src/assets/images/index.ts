@@ -21,6 +21,14 @@ const images = {
         linkedin: require("~/assets/images/social-media/linkedin.svg"),
         twitter: require("~/assets/images/social-media/twitter.svg"),
         youtube: require("~/assets/images/social-media/youtube.svg"),
+    },
+
+    viewer: {
+        viewer01: require("~/assets/images/viewers/viewer-01.png"),
+        viewer02: require("~/assets/images/viewers/viewer-02.png"),
+        viewer03: require("~/assets/images/viewers/viewer-03.png"),
+        viewer04: require("~/assets/images/viewers/viewer-04.png"),
+        viewer05: require("~/assets/images/viewers/viewer-05.png")
     }
 }
 
