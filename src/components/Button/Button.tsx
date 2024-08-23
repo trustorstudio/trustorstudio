@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IconType } from "react-icons";
 import { ReactNode } from "react";
 import { ClipLoader } from "react-spinners";
+import { cn } from "~/libs/utils";
 
 type Props = {
     loading?: boolean;
@@ -66,7 +67,10 @@ function Button({
 
     return (
         <Component
-            className={`inline-flex items-center justify-center min-w-[100px] py-3 px-6 rounded text-[14px] font-normal border-solid border-[1px] border-transparent relative after:absolute after:inset-[-5px]  after:content-["] after:z-10 after:opacity-0 after:transition-all after:duration-300 after:bg-inherit hover:after:opacity-100  ${className}`}
+            className={cn(
+                "inline-flex items-center justify-center min-w-[100px] py-3 px-6 rounded text-[14px] font-normal border-solid border-[1px] border-transparent relative after:absolute after:inset-[-5px] ",
+                className,
+            )}
             {...props}
         >
             {!loading && LeftIcon && (

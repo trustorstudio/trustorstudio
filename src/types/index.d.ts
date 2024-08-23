@@ -19,3 +19,9 @@ export type BannerType = {
     button: string;
     description: string
 }
+
+export type ViewerType = {
+    id: number;
+    image: any;
+    video: string;
+}
