@@ -20,6 +20,8 @@
     --shadow-button: 0 8px 12px 0 rgba(177, 109, 215, 0.28);
     --text-linear: linear-gradient(107deg, #7054d1 16%, #ab56c9 60%, #b275dc 102%);
 
+    --shadow-button: var(--dg-button-focus-box-shadow) var(--dg-color-default-focus)
+
     // Admin themes
     --admin-primary-color: #202b40;
     --admin-secondary-color: #192132;

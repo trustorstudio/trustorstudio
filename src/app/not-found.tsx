@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import images from "~/assets/images";
@@ -7,7 +9,9 @@ import Button from "~/components/Button";
 
 const cx = classNames.bind(styles);
 
-function NotFound() {
+type Props = {};
+
+const NotFound = function ({}: Props) {
     return (
         <div className={cx("wrapper")}>
             <div>
@@ -18,6 +22,6 @@ function NotFound() {
             <Button className={cx("button")}>Back to Home</Button>
         </div>
     );
-}
+};
 
 export default NotFound;
