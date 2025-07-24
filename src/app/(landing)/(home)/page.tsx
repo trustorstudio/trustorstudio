@@ -36,35 +36,41 @@ export default function LandingPage() {
           >
             <div className="grid items-center gap-8 lg:grid-cols-2">
               <section className="relative">
-                <h1 className="mb-10 text-5xl font-bold  lg:text-8xl">
-                  <span className="block tracking-tight">Verified</span>
-                  <span className="block bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text tracking-tight text-transparent drop-shadow-lg">
-                    Trusted
+                <h1 className="mb-10 text-5xl font-bold lg:text-8xl">
+                  <span className="block tracking-tight">Trustor</span>
+                  <span className="block bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent drop-shadow-lg tracking-tight">
+                    Built for Trust
                   </span>
-                  <span className="mt-4 block text-2xl font-normal text-gray-300 lg:text-4xl">for Distributed Work</span>
+                  <span className="mt-4 block text-2xl font-normal text-gray-300 lg:text-4xl">Powering Decentralized Collaboration</span>
                 </h1>
+
                 <div className="relative mb-12 border-l-2 border-white/20 pl-6">
                   <p className="mb-6 text-xl leading-relaxed text-gray-300">
-                    Infrastructure for <strong className="text-white">decentralized access control</strong>, credential issuance, contributor
-                    onboarding, and treasury management.
+                    Trustor Studio provides secure infrastructure for{" "}
+                    <strong className="text-white">decentralized identity, access control, and credential verification</strong> — enabling seamless
+                    onboarding, governance, and treasury flows for Web3 teams.
                   </p>
-                  <p className="text-lg text-gray-400">Local participation that opens global opportunity.</p>
+                  <p className="text-lg text-gray-400">
+                    We connect local contributors to global impact — with systems built on transparency, autonomy, and trust.
+                  </p>
                 </div>
+
                 <div className="flex flex-col gap-6 sm:flex-row">
                   <Link
                     href={publicRouters.home}
-                    className="inline-flex items-center justify-center whitespace-nowrap rounded-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-success text-xl bg-white px-8 py-4 font-semibold text-blue-900 shadow-xl hover:bg-gray-100"
+                    className="inline-flex items-center justify-center px-8 py-4 text-xl font-semibold text-blue-900 bg-white rounded-sm shadow-xl transition-colors hover:bg-gray-100 hover:text-success"
                   >
-                    Start With Cardano2vn
+                    Get Started Trustor Studio
                   </Link>
                   <Link
                     href={publicRouters.home}
-                    className="inline-flex items-center justify-center whitespace-nowrap rounded-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary border-white/50 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:bg-white/10 hover:text-white"
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-primary border-white/50 rounded-sm shadow-lg transition-colors hover:bg-white/10"
                   >
-                    View Documents
+                    Read Documentation
                   </Link>
                 </div>
               </section>
+
               <section className="relative hidden lg:block">
                 <div className="relative">
                   <div className="relative h-[55vh] w-full">
